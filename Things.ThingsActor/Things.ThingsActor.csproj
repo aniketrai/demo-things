@@ -9,8 +9,8 @@
     <TargetLatestRuntimePatch>False</TargetLatestRuntimePatch>
     <UpdateServiceFabricManifestEnabled>True</UpdateServiceFabricManifestEnabled>
     <ServicePackagePath>PackageRoot</ServicePackagePath>
-    <ServicePackagePrefix>$(MSBuildProjectName)</ServicePackagePrefix>
-    <FabActUtilWorkingDir>$(BaseIntermediateOutputPath)\FabActUtilTemp</FabActUtilWorkingDir>
+    <ServicePackagePrefix>"$(MSBuildProjectName)"</ServicePackagePrefix>
+    <FabActUtilWorkingDir>"$(BaseIntermediateOutputPath)"\FabActUtilTemp</FabActUtilWorkingDir>
     <Platforms>x64</Platforms>
   </PropertyGroup>
 
