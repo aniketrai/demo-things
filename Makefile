@@ -34,7 +34,7 @@ ${publishTargets}:
 	dotnet restore --ignore-failed-sources -s https://pkgs.dev.azure.com/claros-devops/claros-nuget/_packaging/claros-nuget/nuget/v3/index.json ./src/$(subst 'publish_',,$@)
 	dotnet publish -r win-x64 -c Release /clp:NoSummary ./src/$(subst 'publish_',,$@)
 
-# WARNING -------- This works because each of the services has the package name of the service + 'Pkg'. This is true for this project but might not always be.
+
 ${copyTargets}:
 	@echo copy - $(subst 'copy_',,$@)
 	@mkdir -p ./pkg/$(subst 'copy_',,$@)Pkg
