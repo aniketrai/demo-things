@@ -11,6 +11,7 @@ clean:
 	find . -type d -name "bin" -print0 | xargs -0 rm -rf
 	find . -type d -name "obj" -print0 | xargs -0 rm -rf
 	@echo cleaned.
+	@echo $(branch)
 
 # Command for building.
 build: clean restore
