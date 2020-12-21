@@ -44,5 +44,5 @@ ${copyTargets}:
 
 copy: cleanPkg ${copyTargets}
 
-publish: build ${publishTargets} copy
+publish: build ${publishTargets}
 	@echo Done publishing.
