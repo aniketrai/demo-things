@@ -29,7 +29,7 @@ cleanPkg:
 restore:
 	find . -name "*.csproj" -print | xargs -n1 dotnet restore -s https://pkgs.dev.azure.com/claros-devops/claros-nuget/_packaging/claros-nuget/nuget/v3/index.json -nologo /clp:NoSummary /property:GenerateFullPaths=true
 	@echo restored.
-	ifneq (,$(findstring sprint,$(branch)))
+	ifeq (sprint,"$(findstring sprint,$(branch))")
 		@echo found.
 	endif
 
