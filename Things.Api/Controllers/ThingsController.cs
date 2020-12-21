@@ -10,7 +10,7 @@ using Things.ThingsList.Interfaces;
 namespace Things.Api.Controllers
 {
     /// <summary>
-    /// Things controller class ..   ...
+    /// Things controller class
     /// </summary>
     [Produces("application/json")]
     [Route("api/[controller]")]
