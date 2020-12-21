@@ -6,6 +6,7 @@ using Microsoft.ServiceFabric.Services.Remoting.Client;
 using Microsoft.ServiceFabric.Services.Remoting.V2.FabricTransport.Client;
 using Things.Domain;
 using Things.ThingsList.Interfaces;
+using Claros.Common.Form;
 
 namespace Things.Api.Controllers
 {
@@ -23,6 +24,7 @@ namespace Things.Api.Controllers
         /// </summary>
         public ThingsController()
         {
+            Form f = new Form(); 
             var proxyFactory = new ServiceProxyFactory(c => new FabricTransportServiceRemotingClientFactory());
 
             _thingsService = proxyFactory.CreateServiceProxy<IThingsListService>(
