@@ -1,0 +1,54 @@
+rootName := "Things"
+projectFolders = $(shell find ./src/*/PackageRoot -maxdepth 0 -prune -print | grep -o 'Things..[[:alnum:]]*')
+publishTargets = $(addprefix 'publish_', ${projectFolders})
+copyTargets = $(addprefix 'copy_', ${projectFolders})
+
+.PHONY: list
+list:
+	@grep '^[^#[:space:]].*:' Makefile
+
+clean:
+	find . -type d -name "bin" -print0 | xargs -0 rm -rf
+	find . -type d -name "obj" -print0 | xargs -0 rm -rf
+	@echo cleaned.
+
+# Command for building.
+build: clean restore
+	find . -name "*.csproj" -print | xargs -n1 dotnet build -nologo /clp:NoSummary --no-restore /property:GenerateFullPaths=true
+
+test: build
+	find . -name "*.csproj" -print | grep -i test | xargs -n1 dotnet test
+
+# Commands for publishing.
+cleanPkg:
+	rm -rf pkg
+	mkdir -p ./pkg
+
+# Commands for restore.
+restore:
+	find . -name "*.csproj" -print | xargs -n1 dotnet restore -s https://pkgs.dev.azure.com/claros-devops/claros-nuget/_packaging/claros-nuget/nuget/v3/index.json -nologo /clp:NoSummary /property:GenerateFullPaths=true
+	@echo restored.
+
+${publishTargets}:
+	@echo publish - $@
+	dotnet restore --ignore-failed-sources -s https://pkgs.dev.azure.com/claros-devops/claros-nuget/_packaging/claros-nuget/nuget/v3/index.json ./src/$(subst 'publish_',,$@)
+	dotnet publish -r win-x64 -c Release /clp:NoSummary ./src/$(subst 'publish_',,$@)
+
+# WARNING -------- This works because each of the services has the package name of the service + 'Pkg'. This is true for this project but might not always be.
+${copyTargets}:
+	@echo copy - $(subst 'copy_',,$@)
+	@mkdir -p ./pkg/$(subst 'copy_',,$@)Pkg
+	@cp -rv ./src/$(subst 'copy_',,$@)/PackageRoot/* ./pkg/$(subst 'copy_',,$@)Pkg/
+	@mv ./src/$(subst 'copy_',,$@)/bin/x64/Release/netcoreapp3.1/win-x64/publish ./pkg/$(subst 'copy_',,$@)Pkg/Code
+
+copyManifest:
+	@echo copy manifest
+	cp ./src/${rootName}/ApplicationPackageRoot/ApplicationManifest.xml ./pkg/
+
+copy: cleanPkg ${copyTargets} copyManifest
+
+publish: build ${publishTargets} copy
+	@echo Done publishing.
+	
+sonar:
+	find . -name "*.csproj" -print | xargs -n1 dotnet build -nologo /clp:NoSummary /property:GenerateFullPaths=true -nodeReuse:false
