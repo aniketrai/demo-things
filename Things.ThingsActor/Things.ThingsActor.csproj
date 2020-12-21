@@ -7,7 +7,7 @@
     <ServerGarbageCollection>True</ServerGarbageCollection>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <TargetLatestRuntimePatch>False</TargetLatestRuntimePatch>
-    <UpdateServiceFabricManifestEnabled>True</UpdateServiceFabricManifestEnabled>
+    <UpdateServiceFabricManifestEnabled>False</UpdateServiceFabricManifestEnabled>
     <ServicePackagePath>PackageRoot</ServicePackagePath>
     <ServicePackagePrefix>"$(MSBuildProjectName)"</ServicePackagePrefix>
     <FabActUtilWorkingDir>"$(BaseIntermediateOutputPath)"\FabActUtilTemp</FabActUtilWorkingDir>
