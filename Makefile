@@ -31,6 +31,7 @@ restore:
 	@echo restored.
 ifeq (sprint,$(findstring sprint,$(branch)))
 	@echo found.
+	nuget install Newtonsoft.Json
 endif
 
 ${publishTargets}:
