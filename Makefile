@@ -26,7 +26,7 @@ cleanPkg:
 
 # Commands for restore.
 restore:
-	find . -name "*.csproj" -print | xargs -n1 dotnet restore -nologo /clp:NoSummary /property:GenerateFullPaths=true
+	find . -name "*.csproj" -print | dotnet restore -nologo /clp:NoSummary /property:GenerateFullPaths=true
 	@echo restored.
 
 ${publishTargets}:
