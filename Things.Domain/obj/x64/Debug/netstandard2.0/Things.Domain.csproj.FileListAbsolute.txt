@@ -1,0 +1,9 @@
+D:\personal\practise\Things.Application\Things.Domain\bin\x64\Debug\netstandard2.0\Things.Domain.deps.json
+D:\personal\practise\Things.Application\Things.Domain\bin\x64\Debug\netstandard2.0\Things.Domain.dll
+D:\personal\practise\Things.Application\Things.Domain\bin\x64\Debug\netstandard2.0\Things.Domain.pdb
+D:\personal\practise\Things.Application\Things.Domain\obj\x64\Debug\netstandard2.0\Things.Domain.csprojAssemblyReference.cache
+D:\personal\practise\Things.Application\Things.Domain\obj\x64\Debug\netstandard2.0\Things.Domain.AssemblyInfoInputs.cache
+D:\personal\practise\Things.Application\Things.Domain\obj\x64\Debug\netstandard2.0\Things.Domain.AssemblyInfo.cs
+D:\personal\practise\Things.Application\Things.Domain\obj\x64\Debug\netstandard2.0\Things.Domain.csproj.CoreCompileInputs.cache
+D:\personal\practise\Things.Application\Things.Domain\obj\x64\Debug\netstandard2.0\Things.Domain.dll
+D:\personal\practise\Things.Application\Things.Domain\obj\x64\Debug\netstandard2.0\Things.Domain.pdb

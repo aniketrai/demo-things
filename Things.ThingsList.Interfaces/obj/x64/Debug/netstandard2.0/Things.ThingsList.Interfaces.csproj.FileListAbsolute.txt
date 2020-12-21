@@ -1,0 +1,12 @@
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\bin\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.deps.json
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\bin\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.dll
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\bin\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.pdb
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\bin\x64\Debug\netstandard2.0\Things.Domain.dll
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\bin\x64\Debug\netstandard2.0\Things.Domain.pdb
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\obj\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.csprojAssemblyReference.cache
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\obj\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.AssemblyInfoInputs.cache
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\obj\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.AssemblyInfo.cs
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\obj\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.csproj.CoreCompileInputs.cache
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\obj\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.csproj.CopyComplete
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\obj\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.dll
+D:\personal\practise\Things.Application\Things.ThingsList.Interfaces\obj\x64\Debug\netstandard2.0\Things.ThingsList.Interfaces.pdb

@@ -4,6 +4,7 @@
     <ApplicationUrl />
     <LaunchTarget>..\Things.Api\Things.Api.csproj</LaunchTarget>
     <LastServiceLocation />
+    <IsStartupProjectCheckComplete>true</IsStartupProjectCheckComplete>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>LocalDebugger</DebuggerFlavor>

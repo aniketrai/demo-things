@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "24q6fV/clvJnoYH/9KlX0TBUJzE6WRQdQ0Rf1Rw47nfjcDMkBlNVDjctTqDX0jHu0Zx/lp9BrL0HeZJelo1RUg==",
+  "success": true,
+  "projectFilePath": "D:\\personal\\practise\\Things.Application\\Things.ThingsActor\\Things.ThingsActor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric\\6.4.670\\microsoft.servicefabric.6.4.670.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.actors\\3.3.670\\microsoft.servicefabric.actors.3.3.670.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.data\\3.3.670\\microsoft.servicefabric.data.3.3.670.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.data.extensions\\1.4.670\\microsoft.servicefabric.data.extensions.1.4.670.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.data.interfaces\\3.3.670\\microsoft.servicefabric.data.interfaces.3.3.670.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.diagnostics.internal\\3.3.670\\microsoft.servicefabric.diagnostics.internal.3.3.670.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.fabrictransport.internal\\3.3.670\\microsoft.servicefabric.fabrictransport.internal.3.3.670.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.services\\3.3.670\\microsoft.servicefabric.services.3.3.670.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.services.remoting\\3.3.670\\microsoft.servicefabric.services.remoting.3.3.670.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\runtime.win-x64.microsoft.netcore.app\\2.0.0\\runtime.win-x64.microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\runtime.win-x64.microsoft.netcore.dotnetapphost\\2.0.0\\runtime.win-x64.microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\runtime.win-x64.microsoft.netcore.dotnethostpolicy\\2.0.0\\runtime.win-x64.microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\arai\\.nuget\\packages\\runtime.win-x64.microsoft.netcore.dotnethostresolver\\2.0.0\\runtime.win-x64.microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
