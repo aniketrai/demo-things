@@ -1,5 +1,5 @@
 rootName := "Things"
-projectFolders = $(shell find ./src/*/PackageRoot -maxdepth 0 -prune -print | grep -o 'Things..[[:alnum:]]*')
+projectFolders = $(shell find -maxdepth 0 -prune -print | grep -o 'Things..[[:alnum:]]*')
 publishTargets = $(addprefix 'publish_', ${projectFolders})
 copyTargets = $(addprefix 'copy_', ${projectFolders})
 
@@ -41,14 +41,8 @@ ${copyTargets}:
 	@cp -rv ./src/$(subst 'copy_',,$@)/PackageRoot/* ./pkg/$(subst 'copy_',,$@)Pkg/
 	@mv ./src/$(subst 'copy_',,$@)/bin/x64/Release/netcoreapp3.1/win-x64/publish ./pkg/$(subst 'copy_',,$@)Pkg/Code
 
-copyManifest:
-	@echo copy manifest
-	cp ./src/${rootName}/ApplicationPackageRoot/ApplicationManifest.xml ./pkg/
 
-copy: cleanPkg ${copyTargets} copyManifest
+copy: cleanPkg ${copyTargets}
 
 publish: build ${publishTargets} copy
 	@echo Done publishing.
-	
-sonar:
-	find . -name "*.csproj" -print | xargs -n1 dotnet build -nologo /clp:NoSummary /property:GenerateFullPaths=true -nodeReuse:false
