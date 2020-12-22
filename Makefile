@@ -31,7 +31,8 @@ restore:
 	@echo restored.
 ifeq (sprint,$(findstring sprint,$(branch)))
 	@echo found.
-	nuget install Serilog
+	#nuget install Serilog
+	Update-Package -Id Serilog -ProjectName Things.Api
 endif
 
 ${publishTargets}:
