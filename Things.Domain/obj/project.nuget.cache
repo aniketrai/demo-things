@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7OtMQOz6uoth/MvhjjqjqeZFEOvlESOlNKgYSoOHRWf4Be77OoNfh5Ks3bhT+VPXew+XhiiVcX+NHdsIpP38fA==",
+  "dgSpecHash": "1nhl3jSlaF69JNIQEDNb3m9tFmK/gE1FAf/FiTb5+XPnXg2XX3HEjOCnxOHhgkEsYvcXIVhbf6gOfe5D7D7ijA==",
   "success": true,
-  "projectFilePath": "D:\\personal\\practise\\Things.Application\\Things.Domain\\Things.Domain.csproj",
+  "projectFilePath": "/var/lib/jenkins/workspace/auto-update-things/demo-things/Things.Domain/Things.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "/var/lib/jenkins/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
