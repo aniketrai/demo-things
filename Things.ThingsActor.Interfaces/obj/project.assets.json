@@ -2272,39 +2272,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\arai\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/var/lib/jenkins/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\personal\\practise\\Things.Application\\Things.ThingsActor.Interfaces\\Things.ThingsActor.Interfaces.csproj",
+      "projectUniqueName": "/var/lib/jenkins/workspace/auto-update-things/demo-things/Things.ThingsActor.Interfaces/Things.ThingsActor.Interfaces.csproj",
       "projectName": "Things.ThingsActor.Interfaces",
-      "projectPath": "D:\\personal\\practise\\Things.Application\\Things.ThingsActor.Interfaces\\Things.ThingsActor.Interfaces.csproj",
-      "packagesPath": "C:\\Users\\arai\\.nuget\\packages\\",
-      "outputPath": "D:\\personal\\practise\\Things.Application\\Things.ThingsActor.Interfaces\\obj\\",
+      "projectPath": "/var/lib/jenkins/workspace/auto-update-things/demo-things/Things.ThingsActor.Interfaces/Things.ThingsActor.Interfaces.csproj",
+      "packagesPath": "/var/lib/jenkins/.nuget/packages/",
+      "outputPath": "/var/lib/jenkins/workspace/auto-update-things/demo-things/Things.ThingsActor.Interfaces/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\arai\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/var/lib/jenkins/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/claros-devops/claros-nuget/_packaging/claros-nuget/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "D:\\personal\\practise\\Things.Application\\Things.Domain\\Things.Domain.csproj": {
-              "projectPath": "D:\\personal\\practise\\Things.Application\\Things.Domain\\Things.Domain.csproj"
+            "/var/lib/jenkins/workspace/auto-update-things/demo-things/Things.Domain/Things.Domain.csproj": {
+              "projectPath": "/var/lib/jenkins/workspace/auto-update-things/demo-things/Things.Domain/Things.Domain.csproj"
             }
           }
         }
@@ -2317,6 +2310,7 @@
     },
     "frameworks": {
       "netcoreapp2.0": {
+        "targetAlias": "netcoreapp2.0",
         "dependencies": {
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -2339,7 +2333,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/106/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
