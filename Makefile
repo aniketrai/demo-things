@@ -11,6 +11,7 @@ clean:
 	find . -type d -name "bin" -print0 | xargs -0 rm -rf
 	find . -type d -name "obj" -print0 | xargs -0 rm -rf
 	@echo cleaned.
+	@echo $(branch)
 
 # Command for building.
 build: clean restore
@@ -26,12 +27,18 @@ cleanPkg:
 
 # Commands for restore.
 restore:
-	find . -name "*.csproj" -print | xargs -n1 dotnet restore -s https://pkgs.dev.azure.com/claros-devops/claros-nuget/_packaging/claros-nuget/nuget/v3/index.json -nologo /clp:NoSummary /property:GenerateFullPaths=true
+	find . -name "*.csproj" -print | xargs -n1 dotnet restore -nologo /clp:NoSummary /property:GenerateFullPaths=true
 	@echo restored.
+ifeq (sprint,$(findstring sprint,$(branch)))
+	@echo found.
+	#nuget install Serilog
+	#powershell -Command Update-Package Serilog -ProjectName Things.Api
+	dotnet add Things.Api package Serilog
+endif
 
 ${publishTargets}:
 	@echo publish - $@
-	dotnet restore --ignore-failed-sources -s https://pkgs.dev.azure.com/claros-devops/claros-nuget/_packaging/claros-nuget/nuget/v3/index.json ./src/$(subst 'publish_',,$@)
+	dotnet restore --ignore-failed-sources ./src/$(subst 'publish_',,$@)
 	dotnet publish -r win-x64 -c Release /clp:NoSummary ./src/$(subst 'publish_',,$@)
 
 
