@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "4wowgZAwDpg33mLsL/DZcgiW+4kob+tVddwf59fkgDewr/e1KGIKhrfNXubLeMJdDJ5mU05VYwCqtxq3gfZtFw==",
+  "dgSpecHash": "1v0rQYv7K3+F16u52XQKOhNxjYi7JmIa7Q4FHyDwQXIx0ZCIsCpS3RdfzchXQ8+bzbau5p1vlcUwKPiywRd8Kw==",
   "success": true,
-  "projectFilePath": "D:\\personal\\practise\\Things.Application\\Things.ThingsList.Interfaces\\Things.ThingsList.Interfaces.csproj",
+  "projectFilePath": "/var/lib/jenkins/workspace/auto-update-things/Things.ThingsList.Interfaces/Things.ThingsList.Interfaces.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric\\6.4.670\\microsoft.servicefabric.6.4.670.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.data\\3.3.670\\microsoft.servicefabric.data.3.3.670.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.data.extensions\\1.4.670\\microsoft.servicefabric.data.extensions.1.4.670.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.data.interfaces\\3.3.670\\microsoft.servicefabric.data.interfaces.3.3.670.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.diagnostics.internal\\3.3.670\\microsoft.servicefabric.diagnostics.internal.3.3.670.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.fabrictransport.internal\\3.3.670\\microsoft.servicefabric.fabrictransport.internal.3.3.670.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.services\\3.3.670\\microsoft.servicefabric.services.3.3.670.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\microsoft.servicefabric.services.remoting\\3.3.670\\microsoft.servicefabric.services.remoting.3.3.670.nupkg.sha512",
-    "C:\\Users\\arai\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "/var/lib/jenkins/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/microsoft.servicefabric/6.4.670/microsoft.servicefabric.6.4.670.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/microsoft.servicefabric.data/3.3.670/microsoft.servicefabric.data.3.3.670.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/microsoft.servicefabric.data.extensions/1.4.670/microsoft.servicefabric.data.extensions.1.4.670.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/microsoft.servicefabric.data.interfaces/3.3.670/microsoft.servicefabric.data.interfaces.3.3.670.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/microsoft.servicefabric.diagnostics.internal/3.3.670/microsoft.servicefabric.diagnostics.internal.3.3.670.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/microsoft.servicefabric.fabrictransport.internal/3.3.670/microsoft.servicefabric.fabrictransport.internal.3.3.670.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/microsoft.servicefabric.services/3.3.670/microsoft.servicefabric.services.3.3.670.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/microsoft.servicefabric.services.remoting/3.3.670/microsoft.servicefabric.services.remoting.3.3.670.nupkg.sha512",
+    "/var/lib/jenkins/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
